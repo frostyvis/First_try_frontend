@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    color: white;
+    background: #333333;
+    margin-bottom: 40px;
+}
+
+header .profile {
+    display: flex;
+    align-items: center;
+}
+
+header .profile a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header .profile img {
+    border-radius: 50%;
+}
+
+#Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.post p {
+    margin: 0px 0 5px 0;
+}
+
+.load-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.load-btn button {
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    background: #333333;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.load-btn button:hover {
+    background: #555555;
+}
+
+.load-btn button:active {
+    background: #222222;
+}
