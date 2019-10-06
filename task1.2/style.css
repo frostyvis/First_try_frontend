@@ -1,0 +1,51 @@
+#Registration{
+    height: 200px;
+    width: 300px;
+    background-color: #008ccb;
+    color: #ffffff;
+    border: 3px solid #006fad;
+    padding: 20px 0 0 20px;
+}
+
+.registration{
+    font-size: 20px;
+}
+
+hr{
+    color: #ffffff;
+    margin-left: -20px
+}
+
+.email{
+    width: 200px;
+    margin-top: 20px;
+}
+
+input[type="email"]{
+    width: 280px;
+}
+
+.pass{
+    display: flex;
+    margin-top: 10px;
+}
+
+.password{
+    width: 100px;
+}
+
+.repeat{
+    width: 100px;
+    margin-left: 50px; 
+}
+
+input[type="text"]{
+    width: 130px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #ffe288;
+    padding: 5px;
+    border: 0;
+}
