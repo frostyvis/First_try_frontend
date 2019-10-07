@@ -53,6 +53,7 @@ ul {
   color: #ffffff;
 }
 
-.menu:hover a {
+.file:hover a,
+.edition:hover a {
   text-decoration: none;
 }
