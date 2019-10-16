@@ -59,7 +59,7 @@ img {
   margin-bottom: -25px;
 }
 
-@media screen and (min-device-width: 800px) and (max-device-width: 1000px) {
+@media screen and (min-width: 800px) and (max-width: 1000px) {
   main {
     flex-direction: row;
     align-items: stretch;
@@ -111,7 +111,7 @@ img {
   }
 }
 
-@media screen and (min-device-width: 1000px) {
+@media screen and (min-width: 1000px) {
   main {
     flex-direction: row;
     align-items: stretch;
