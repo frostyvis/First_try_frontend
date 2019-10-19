@@ -16,7 +16,7 @@
         <h1>Flexbox Layout</h1>
     </header>
 
-    <nav>
+    <nav class="nav-header">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Contacts</a></li>
@@ -26,113 +26,125 @@
             <li><a href="#">Sign in</a></li>
         </ul>
     </nav>
-    
+
     <main>
 
-        <div class="left_column">
-            <div class="section_img">
-                <img src="lake.jpg" alt="lake">
-                <section>
-                    <h4>Hello World</h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
+        <div class="side-content">
+            <img class="item-img" src="lake.jpg" alt="lake">
+            <article class="item">            
+                <h4 class="item-header">Hello World</h4>
+                <p class="item-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
                     dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim.
-                    <div class="div_p">
-                        <p>By Joe Smith </p>
-                        <p>42 comments</p>
-                    </div>
-                </section>
-            </div>
-            <section>
-                <h4>Hello World</h4>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
-                <div class="div_p">
-                    <p>By Joe Smith </p>
-                    <p>42 comments</p>
+                </p>
+                <div class="item-footer">
+                    <p class="author">By Joe Smith </p>
+                    <p class="comments">42 comments</p>
                 </div>
-            </section>
-            <section>
-                <h4>Hello World</h4>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
-                <div class="div_p">
-                    <p>By Joe Smith </p>
-                    <p>42 comments</p>
+            </article>
+            <article class="item">
+                <h4 class="item-header">Hello World</h4>
+                <p class="item-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="item-footer">
+                    <p class="author">By Joe Smith </p>
+                    <p class="comments">42 comments</p>
                 </div>
-            </section>
-            <section>
-                <h4>Hello World</h4>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
-                <div class="div_p">
-                    <p>By Joe Smith </p>
-                    <p>42 comments</p>
+            </article>
+            <article class="item">
+                <h4 class="item-header">Hello World</h4>
+                <p class="item-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="item-footer">
+                    <p class="author">By Joe Smith </p>
+                    <p class="comments">42 comments</p>
                 </div>
-            </section>
+            </article>
+            <article class="item">
+                <h4 class="item-header">Hello World</h4>
+                <p class="item-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="item-footer">
+                    <p class="author">By Joe Smith </p>
+                    <p class="comments">42 comments</p>
+                </div>
+            </article>
         </div>
-        <div class="center">
-            <div class="top section_img">
-                    <div><img src="trail.jpg" alt="trail"></div>
-                    <section>
-                        <h4>Hello World</h4>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec
-                        feugiat.
-                        <div class="div_p">
-                            <p>By Joe Smith </p>
-                            <p>42 comments</p>
-                        </div>
-                    </section>
-            </div>
-            <div class="bot">
-                <div class="bot_left section_img">
-                        <div><img src="mountain.jpg" alt="maountain"></div>
-                    <section>
-                        <h4>Hello World</h4>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec
-                        feugiat.
-                        Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec
-                        ullamcorper.
-                        <div class="div_p">
-                            <p>By Joe Smith </p>
-                            <p>42 comments</p>
-                        </div>
-                    </section>
-                </div>
-                <div class="bot_right">
-                    <div class="section_img">
-                        <div><img src="cloud.jpg" alt="cloud"></div>
-                        <section>
-                        <h4>Hello World</h4>
-                        Lorem ipsum dolor sit amet.
-                        <div class="div_p">
-                            <p>By Joe Smith </p>
-                            <p>42 comments</p>
-                        </div>
-                        </section>
+        <div class="main-content">
+            <div class="horizontal-content">
+                <img class="item-img" src="trail.jpg" alt="trail">
+                <article class="item item-horizontal">                    
+                    <h4 class="item-header">Hello World</h4>
+                    <p class="item-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim.
+                        In massa tempor nec feugiat.
+                    </p>
+                    <div class="item-footer">
+                        <p class="author">By Joe Smith </p>
+                        <p class="comments">42 comments</p>
                     </div>
-                    <section>
-                        <h4>Hello World</h4>
-                        Lorem ipsum dolor sit amet.
-                        <div class="div_p">
-                            <p>By Joe Smith </p>
-                            <p>42 comments</p>
+                </article>
+            </div>
+            <div class="vertical-content">
+                <div class="main-vertical-content">
+                    <img class="item-img" src="mountain.jpg" alt="mountain">
+                    <article class="item">
+                        <h4 class="item-header">Hello World</h4>
+                        <p class="item-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa
+                            tempor nec
+                            feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae
+                            aliquet
+                            nec
+                            ullamcorper.
+                        </p>
+                        <div class="item-footer">
+                            <p class="author">By Joe Smith </p>
+                            <p class="comments">42 comments</p>
                         </div>
-                    </section>
-                    <section>
-                        <h4>Hello World</h4>
-                        Lorem ipsum dolor sit amet.
-                        <div class="div_p">
-                            <p>By Joe Smith </p>
-                            <p>42 comments</p>
+                    </article>
+                </div>
+                <div class="side-vertical-content">
+                    <img class="item-img" src="cloud.jpg" alt="cloud">
+                    <article class="item">                        
+                        <h4 class="item-header">Hello World</h4>
+                        <p class="item-content">
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <div class="item-footer">
+                            <p class="author">By Joe Smith</p>
+                            <p class="comments">42 comments</p>
                         </div>
-                    </section>
+                    </article>
+                    <article class="item">
+                        <h4 class="item-header">Hello World</h4>
+                        <p class="item-content">
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <div class="item-footer">
+                            <p class="author">By Joe Smith </p>
+                            <p class="comments">42 comments</p>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <h4 class="item-header">Hello World</h4>
+                        <p class="item-content">
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <div class="item-footer">
+                            <p class="author">By Joe Smith </p>
+                            <p class="comments">42 comments</p>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
