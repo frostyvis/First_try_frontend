@@ -145,7 +145,7 @@ main {
     flex-direction: row;
     align-items: stretch;
     flex-wrap: nowrap;
-    width: 1000px;
+    width: 950px;
     margin: 0 auto;
   }
 
@@ -154,7 +154,7 @@ main {
   }
 
   .nav-header {
-    width: 1000px;
+    width: 950px;
     margin: 0 auto;
   }
 
