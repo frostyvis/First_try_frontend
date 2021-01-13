@@ -1,0 +1,14 @@
+{
+  "name": "gulptasktest",
+  "version": "1.0.0",
+  "description": "gulpproject",
+  "main": "index.js",
+  "author": "1ek",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
